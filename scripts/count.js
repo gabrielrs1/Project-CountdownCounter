@@ -34,7 +34,7 @@ function startCount(dayCheck) {
             minutes = 60
             hours -= 1
         } else if(hours == 0 && days > 0) {
-            hours = 23
+            hours = 24
             days -= 1
         }
     }, 1000)
