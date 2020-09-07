@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/count.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+        <button onclick="restart()">Reiniciar</button>
+    </header>
+
+    <span>Faltam</span>
+
+    <main class="main-content">
+        <div class="count">
+            <span id="day">00</span>
+            <p>Dias</p>
+        </div>
+        <div class="count">
+            <span id="hour">00</span>
+            <p>Horas</p>
+        </div>
+        <div class="count">
+            <span id="minute">00</span>
+            <p>Minutos</p>
+        </div>
+        <div class="count">
+            <span id="second">00</span>
+            <p>Segundos</p>
+        </div>  
+    </main>
+
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/count.js"></script>
+</body>
+</html>
+
